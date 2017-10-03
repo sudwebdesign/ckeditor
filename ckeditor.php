@@ -115,16 +115,16 @@ if(typeof CKEDITOR != 'undefined') {
 		var n = textareas[i].name;
 		if(n=="content" || n=="chapo") {
 			CKEDITOR.replace('id_'+n, {
-				extraPlugins: 'justify,showblocks,embed,embedbase,lineutils,widgetselection,widget,notification,notificationaggregator,toolbar<?php echo $extraPlugins ?>',
+				extraPlugins: 'codemirror,justify,showblocks,embed,embedbase,lineutils,widgetselection,widget,notification,notificationaggregator,toolbar<?php echo $extraPlugins ?>',
 				<?php echo $height ?>
-				scayt_autoStartup: true,
+//				scayt_autoStartup: true,
 				extraAllowedContent: 'video[*]{*}',
 				filebrowserBrowseUrl: roxyFileman,
 				filebrowserImageBrowseUrl: roxyFileman+'&type=image',
 				removeDialogTabs: 'link:upload;image:upload',
 				entities: false,
 				allowedContent: true,
-				language : '<?php echo $this->default_lang ?>'
+				language: '<?php echo $this->default_lang ?>',
 			});
 		}
 	}

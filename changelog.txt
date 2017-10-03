@@ -1,3 +1,13 @@
+## Version 4.7.3 PHP (Unofficial) (02/10/2017) ##
+[+] Mise à jour ckeditor 4.7.3
+[+] PHP admis & protégé ::: config.protectedSource.push( /<\?[\s\S]*?\?>/g );// PHP code
+[+] shift+Entrée fait un BR dans le code source ::: shiftEnterMode: CKEDITOR.ENTER_BR;
+[+] Ctrl+clic droit affiche le menu contextuuel du navigateur + correcteur natif du nav ::: 	config.disableNativeSpellChecker = false; && config.BrowserContextMenuOnCtrl = true;
+[+] H1 supprimé du menu format ::: config.format_tags = 'p;h2;h3;h4;h5;h6;pre';
+[+] Coloration syntaxique du source avec codemirror.1.17 ::: https://ckeditor.com/addon/codemirror : http://w8tcha.github.io/CKEditor-CodeMirror-Plugin/
+[+] colorbutton & colordialog activé
+Fix erreur wcs & Scayt commercial spellcheck lors du retour de la source (tout les boutons restent grisés)
+
 ## Version 4.6.2 (11/04/2017) ##
 [+] Mise à jour ckeditor 4.6.2
 [+] Remplacement du plugin Media (oEmbed) par le plugin officiel Media Embed (embed)
