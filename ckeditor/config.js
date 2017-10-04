@@ -1,14 +1,13 @@
-/**
+/** 
  * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
-CKEDITOR.timestamp='171002';
+//CKEDITOR.timestamp='171002';//4 update browser cache
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here.
 	// For complete reference see:
 	// http://docs.ckeditor.com/#!/api/CKEDITOR.config
 	// The toolbar groups arrangement, optimized for two toolbar rows.
-/* */
 	config.toolbarGroups = [
 		{ name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
 		{ name: 'editing',     groups: [ 'find', 'selection'] },
