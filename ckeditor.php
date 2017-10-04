@@ -87,7 +87,7 @@ class ckeditor extends plxPlugin {
 			$_SESSION['FILEMAN_FILES_ROOT'] .= "/".$_SESSION['user'];
 		}
 
-		echo '<script src="'.PLX_PLUGINS.'ckeditor/ckeditor/ckeditor.js"></script>'."\n";
+		echo '<script src="'.PLX_PLUGINS.'ckeditor/ckeditor/ckeditor.js?v=473php"></script>'."\n";
 		echo "<style>.cke_dialog_contents tr:hover { background-color: #fff; }</style>\n";
 	}
 
