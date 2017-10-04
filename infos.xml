@@ -2,9 +2,9 @@
 <document>
 	<title><![CDATA[CKEditor 4 PHP]]></title>
 	<author><![CDATA[Thomas I.]]></author>
-	<version>4.7.3 Unofficial</version>
-	<date>02/10/2017</date>
+	<version>4.7.3_PHP</version>
+	<date>04/10/2017</date>
 	<site>http://www.sudwebdesign.fr</site>
-	<description><![CDATA[CKEditor 4.7.3 PHP protect + CodeMirror & shift+enter == <br />]]></description>
+	<description><![CDATA[CKEditor 4.7.3 avec PHP admis + CodeMirror & Maj+entrée activé (br)]]></description>
 	<requirements></requirements>
 </document>

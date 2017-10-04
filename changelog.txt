@@ -1,8 +1,9 @@
-## Version 4.7.3 PHP (Unofficial) (02/10/2017) ##
+## Version 4.7.3 PHP (Unofficial) (04/10/2017) ##
 [+] Mise à jour ckeditor 4.7.3
 [+] PHP admis & protégé ::: config.protectedSource.push( /<\?[\s\S]*?\?>/g );// PHP code
-[+] shift+Entrée fait un BR dans le code source ::: shiftEnterMode: CKEDITOR.ENTER_BR;
-[+] Ctrl+clic droit affiche le menu contextuuel du navigateur + correcteur natif du nav ::: 	config.disableNativeSpellChecker = false; && config.BrowserContextMenuOnCtrl = true;
+[+] Maj+Entrée fait un BR dans le code source ::: shiftEnterMode: CKEDITOR.ENTER_BR;
+[+] Ctrl+clic droit affiche le menu contextuuel du navigateur + correcteur natif du nav ::: 	config.disableNativeSpellChecker = false; && config.BrowserContextMenuOnCtrl = true; [+] __CLASS__ et get_class() (futurs dérivés?)
+[+] Dossier de CK avec la version pour que les future MAJ soit simple et que la navigateur mettre à jour son cache de lui même
 [+] H1 supprimé du menu format ::: config.format_tags = 'p;h2;h3;h4;h5;h6;pre';
 [+] Coloration syntaxique du source avec codemirror.1.17 ::: https://ckeditor.com/addon/codemirror : http://w8tcha.github.io/CKEditor-CodeMirror-Plugin/
 [+] colorbutton & colordialog activé
